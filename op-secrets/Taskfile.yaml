@@ -1,0 +1,65 @@
+# Taskfile (https://taskfile.dev)
+version: "3"
+
+# File variables
+vars:
+  BUILD_DIR: dist
+
+tasks:
+  # ---------------------------------------------------------------------------
+  # Task: dev (aliases: run, dev)
+  # ---------------------------------------------------------------------------
+  start:
+    aliases: [run, dev]
+    desc: Run the golang code
+    summary: |
+      Example Usage: $ task start -- --chdir=example --config=secrets.yaml list
+    cmd: go run . {{.CLI_ARGS}}
+
+  # ---------------------------------------------------------------------------
+  # Task: fmt
+  # ---------------------------------------------------------------------------
+  fmt:
+    desc: Reformat the golang code
+    cmds:
+      - gofmt -s -l -w .
+      # https://pkg.go.dev/cmd/fix
+      - go fix ./...
+      # https://pkg.go.dev/cmd/vet
+      - go vet ./...
+
+  # ---------------------------------------------------------------------------
+  # Task: update-deps
+  # ---------------------------------------------------------------------------
+  update-deps:
+    desc: Update golang module dependencies
+    cmds:
+      - go mod tidy
+      - go get -u ./...
+      - go mod verify
+
+  # ---------------------------------------------------------------------------
+  # Task: build
+  # ---------------------------------------------------------------------------
+  build:
+    internal: true
+    desc: Compile into binary
+    cmd: |
+      GOOS={{.GOOS}} GOARCH={{.GOARCH}} \
+        go build -o {{.BUILD_DIR}}/op-secrets_{{.GOOS}}_{{.GOARCH}} .
+
+  # ---------------------------------------------------------------------------
+  # Task: build-all
+  # ---------------------------------------------------------------------------
+  build-all:
+    desc: Compile the op-secrets binary (for all OS and architectures)
+    cmds:
+      - rm -rf {{.BUILD_DIR}}
+      - task: build
+        vars: { GOOS: darwin, GOARCH: amd64 }
+      - task: build
+        vars: { GOOS: darwin, GOARCH: arm64 }
+      - task: build
+        vars: { GOOS: linux, GOARCH: amd64 }
+      - task: build
+        vars: { GOOS: linux, GOARCH: arm64 }
