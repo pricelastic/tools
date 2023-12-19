@@ -2,7 +2,7 @@
 
 ## Dev Tools on MacOS/Linux
 
-1. [1Password secrets management CLI](./1p-secrets/)
+1. [op-secrets](./op-secrets/) CLI
 
 #### General
 
