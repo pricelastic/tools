@@ -1,0 +1,25 @@
+{
+  "recommendations": [
+    // General
+    "esbenp.prettier-vscode",
+    "aaron-bond.better-comments",
+    "usernamehw.errorlens",
+    "tamasfe.even-better-toml",
+    "redhat.vscode-yaml",
+
+    // NodeJS
+    "dbaeumer.vscode-eslint",
+    "yoavbls.pretty-ts-errors",
+    "formulahendry.auto-rename-tag",
+
+    // Web / Sveltekit
+    "svelte.svelte-vscode",
+    "ardenivanov.svelte-intellisense",
+    "bradlc.vscode-tailwindcss",
+    "csstools.postcss",
+
+    // Python
+    "ms-python.python",
+    "ms-python.vscode-pylance"
+  ]
+}
