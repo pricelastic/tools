@@ -1,8 +1,8 @@
 # Various Tools
 
-## Dev Tools on MacOS/Linux
-
 1. [op-secrets](./op-secrets/) CLI
+
+## Dev Tools on MacOS/Linux
 
 #### General
 
