@@ -26,7 +26,7 @@
 
 ## VSCode Plugins
 
-You can copy `./vscode` directory to your project to install all the VsCode plugins and settings.
+You can copy `./vscode` directory to your workspace to install all the VsCode plugins and settings.
 
 #### General
 
