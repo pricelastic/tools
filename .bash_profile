@@ -9,6 +9,3 @@ export PS1="\W $ "
 extract_github_token() {
   echo "url=https://github.com" | git credential fill | grep "^password=" | cut -d= -f2;
 }
-
-# Export GITHUB_TOKEN environment variable
-export GITHUB_TOKEN=$(extract_github_token)
