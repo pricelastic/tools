@@ -1,15 +1,19 @@
 # Various Tools
 
-1. [op-secrets](./op-secrets/) CLI
-
 ## Dev Tools on MacOS/Linux
+
+1. [op-secrets](./op-secrets/) CLI
+2. `.bash_profile`
 
 #### General
 
-1. [Task Runner v3.3x](https://taskfile.dev/installation) (simpler Make alternative)
+1. [Git Credential Manager](https://github.com/GitCredentialManager/git-credential-manager)
+   - Use macOS Keychain to store creds `git config --global credential.helper osxkeychain`
 2. [1Password CLI](https://developer.1password.com/docs/cli/get-started)
    - `$ brew install --cask 1password/tap/1password-cli`
    - `$ op signin`
+3. [Docker Desktop](https://www.docker.com/products/docker-desktop)
+4. [Task Runner v3.3x](https://taskfile.dev/installation) (simpler Make alternative)
 
 #### NodeJS
 
