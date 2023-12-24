@@ -4,6 +4,7 @@
 
 1. [op-secrets](./op-secrets/) CLI
 2. `.bash_profile`
+3. `.npmrc`
 
 #### General
 
