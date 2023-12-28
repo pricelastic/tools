@@ -1,5 +1,14 @@
 # Various Tools
 
+## GitHub Best Practices
+
+1. Branch naming conventions often include:
+   - `feature/`: For new features (e.g. feature/add-login)
+   - `bugfix/`: For bug fixes (e.g. bugfix/fix-login-error)
+   - `hotfix/`: For urgent fixes (e.g. hotfix/patch-security-issue)
+
+---
+
 ## Dev Tools on MacOS/Linux
 
 1. [op-secrets](./op-secrets/) CLI
