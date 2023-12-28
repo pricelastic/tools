@@ -9,7 +9,7 @@
 
 ---
 
-## Dev Tools on MacOS/Linux
+## Dev Tools for MacOS/Linux
 
 1. [op-secrets](./op-secrets/) CLI
 2. `.bash_profile`
