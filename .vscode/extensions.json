@@ -1,22 +1,31 @@
 {
   "recommendations": [
     // General
+    "yzhang.markdown-all-in-one",
     "esbenp.prettier-vscode",
+    "dzhavat.bracket-pair-toggler",
+    "mikestead.dotenv",
     "aaron-bond.better-comments",
     "usernamehw.errorlens",
     "tamasfe.even-better-toml",
     "redhat.vscode-yaml",
+    "wmaurer.change-case",
 
     // NodeJS
     "dbaeumer.vscode-eslint",
     "yoavbls.pretty-ts-errors",
-    "formulahendry.auto-rename-tag",
+    "leizongmin.node-module-intellisense",
 
     // Web / Sveltekit
     "svelte.svelte-vscode",
     "ardenivanov.svelte-intellisense",
     "bradlc.vscode-tailwindcss",
     "csstools.postcss",
+    "jock.svg",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag",
+    "ecmel.vscode-html-css",
+    "pranaygp.vscode-css-peek",
 
     // Python
     "ms-python.python",

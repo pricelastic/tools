@@ -1,6 +1,15 @@
 # Various Tools
 
-## Dev Tools on MacOS/Linux
+## GitHub Best Practices
+
+1. Branch naming conventions often include:
+   - `feature/`: For new features (e.g. feature/add-login)
+   - `bugfix/`: For bug fixes (e.g. bugfix/fix-login-error)
+   - `hotfix/`: For urgent fixes (e.g. hotfix/patch-security-issue)
+
+---
+
+## Dev Tools for MacOS/Linux
 
 1. [op-secrets](./op-secrets/) CLI
 2. `.bash_profile`
@@ -18,8 +27,12 @@
 
 #### NodeJS
 
-1. [NodeJS v18 or 20](https://nodejs.org)
+1. [NodeJS v20](https://nodejs.org)
 2. [Pnpm Package Manager](https://pnpm.io)
+
+#### Web / Sveltekit
+
+1. [Chrome DevTools](https://github.com/sveltejs/svelte-devtools)
 
 #### Python
 
@@ -31,21 +44,25 @@
 
 ## VSCode Plugins
 
-You can copy `./vscode` directory to your workspace to install all the VsCode plugins and settings.
+You can copy the `./vscode` directory to your workspace to install all the VsCode plugins and settings.
 
 #### General
 
-1. Prettier (https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-2. Better Comments (https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
-3. Error Lens (https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
-4. Even Better TOML (https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
-5. YAML (https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+1. Markdown (https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+2. Prettier (https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+3. Bracket Pair Colorization (https://marketplace.visualstudio.com/items?itemName=dzhavat.bracket-pair-toggler)
+4. DotENV (https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
+5. Better Comments (https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+6. Error Lens (https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+7. Even Better TOML (https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
+8. YAML (https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+9. Change Case (https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
 
 #### NodeJS
 
 1. ESLint (https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 2. Pretty TypeScript Errors (https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors)
-3. Auto Rename Tag (https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+3. Node Modules Intellisense (https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense)
 
 #### Web / Sveltekit
 
@@ -53,11 +70,16 @@ You can copy `./vscode` directory to your workspace to install all the VsCode pl
 2. Svelte Intellisense (https://marketplace.visualstudio.com/items?itemName=ardenivanov.svelte-intellisense)
 3. Tailwind IntelliSense (https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 4. PostCSS Support (https://marketplace.visualstudio.com/items?itemName=csstools.postcss)
+5. SVG (https://marketplace.visualstudio.com/items?itemName=jock.svg)
+6. Auto Rename Tag (https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+7. Auto Close Tag (https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+8. HTML CSS Support (https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
+9. CSS Peek (https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
 
 #### Python
 
-1. Python (https://marketplace.visualstudio.com/items?itemName=ms-python.python) (for python projects)
-2. Pylance (https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)(for python projects)
+1. Python (https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+2. Pylance (https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
 
 ---
 
