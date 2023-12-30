@@ -83,8 +83,9 @@ You can copy the `./vscode` directory to your workspace to install all the VsCod
 
 ---
 
-## Misc Tools on MacOS/Linux
+## Misc CLI Tools
 
 1. https://github.com/cube2222/octosql - `OctoSQL` is a query tool that allows you to join, analyse and transform data from multiple databases and file formats using SQL
 2. https://github.com/sharkdp/bat - Better bat with syntax highlighting
 3. https://github.com/rs/curlie - Better curl
+4. https://github.com/dbcli/pgcli - Postgres CLI
