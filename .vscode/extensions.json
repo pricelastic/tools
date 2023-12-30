@@ -10,6 +10,7 @@
     "tamasfe.even-better-toml",
     "redhat.vscode-yaml",
     "wmaurer.change-case",
+    "ms-azuretools.vscode-docker",
 
     // NodeJS
     "dbaeumer.vscode-eslint",
