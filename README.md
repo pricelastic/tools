@@ -57,6 +57,7 @@ You can copy the `./vscode` directory to your workspace to install all the VsCod
 7. Even Better TOML (https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
 8. YAML (https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 9. Change Case (https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
+10. Docker (https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 
 #### NodeJS
 
