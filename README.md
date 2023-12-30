@@ -18,12 +18,13 @@
 #### General
 
 1. [Git Credential Manager](https://github.com/GitCredentialManager/git-credential-manager)
+   - `$ brew install --cask git-credential-manager` 
    - Use macOS Keychain to store creds `$ git config --global credential.helper osxkeychain`
-2. [1Password CLI](https://developer.1password.com/docs/cli/get-started)
-   - `$ brew install --cask 1password/tap/1password-cli`
+3. [1Password CLI](https://developer.1password.com/docs/cli/get-started)
+   - `$ brew install 1password-cli`
    - `$ op signin`
-3. [Docker Desktop](https://www.docker.com/products/docker-desktop)
-4. [Task Runner v3.3x](https://taskfile.dev/installation) (simpler Make alternative)
+4. [Docker Desktop](https://www.docker.com/products/docker-desktop)
+5. [Task Runner v3.3x](https://taskfile.dev/installation) (simpler Make alternative)
 
 #### NodeJS
 
