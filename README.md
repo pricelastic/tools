@@ -37,9 +37,10 @@
 
 #### Python
 
-1. [Python 3.9](https://docs.python-guide.org/starting/install3/osx)
-2. [Poetry Package Manager](https://python-poetry.org)
-3. [Poetry Bash, Fish, or Zsh Completion](https://python-poetry.org)
+1. [Python v3.10](https://docs.python-guide.org/starting/install3/osx)
+2. [pipX](https://github.com/pypa/pipx)
+3. [Poetry Package Manager](https://python-poetry.org)
+4. [Poetry Bash, Fish, or Zsh Completion](https://python-poetry.org)
 
 ---
 
