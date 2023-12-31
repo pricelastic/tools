@@ -18,9 +18,10 @@
 #### General
 
 1. [Git Credential Manager](https://github.com/GitCredentialManager/git-credential-manager)
+   - `$ brew install --cask git-credential-manager`
    - Use macOS Keychain to store creds `$ git config --global credential.helper osxkeychain`
 2. [1Password CLI](https://developer.1password.com/docs/cli/get-started)
-   - `$ brew install --cask 1password/tap/1password-cli`
+   - `$ brew install 1password-cli`
    - `$ op signin`
 3. [Docker Desktop](https://www.docker.com/products/docker-desktop)
 4. [Task Runner v3.3x](https://taskfile.dev/installation) (simpler Make alternative)
@@ -36,9 +37,10 @@
 
 #### Python
 
-1. [Python 3.9](https://docs.python-guide.org/starting/install3/osx)
-2. [Poetry Package Manager](https://python-poetry.org)
-3. [Poetry Bash, Fish, or Zsh Completion](https://python-poetry.org)
+1. [Python v3.10](https://docs.python-guide.org/starting/install3/osx)
+2. [pipX](https://github.com/pypa/pipx)
+3. [Poetry Package Manager](https://python-poetry.org)
+4. [Poetry Bash, Fish, or Zsh Completion](https://python-poetry.org)
 
 ---
 
@@ -57,6 +59,7 @@ You can copy the `./vscode` directory to your workspace to install all the VsCod
 7. Even Better TOML (https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
 8. YAML (https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 9. Change Case (https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
+10. Docker (https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 
 #### NodeJS
 
@@ -83,8 +86,9 @@ You can copy the `./vscode` directory to your workspace to install all the VsCod
 
 ---
 
-## Misc Tools on MacOS/Linux
+## Misc CLI Tools
 
 1. https://github.com/cube2222/octosql - `OctoSQL` is a query tool that allows you to join, analyse and transform data from multiple databases and file formats using SQL
 2. https://github.com/sharkdp/bat - Better bat with syntax highlighting
 3. https://github.com/rs/curlie - Better curl
+4. https://github.com/dbcli/pgcli - Postgres CLI
